@@ -15,7 +15,7 @@ interface Person {
     lastName: string
 }
 
-function greeter(person: Person) {
+function greeter1(person: Person) {
     return 'Hello,' + person.firstName + ',' + person.lastName
 }
 
@@ -25,4 +25,4 @@ function greeter(person: Person) {
 // }
 let user = new User('white', 'zhang')
 
-console.log(greeter(user))
+console.log(greeter1(user))
